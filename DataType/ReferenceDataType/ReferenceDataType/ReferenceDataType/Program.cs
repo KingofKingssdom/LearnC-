@@ -14,99 +14,99 @@
         static void Main(string[] args)
         {
             /*Bài 1: Khai báo một biến string lưu tên của bạn và in ra màn hình.*/
-            //string s = "Huy";
-            //Console.WriteLine(s);
+            string s = "Huy";
+            Console.WriteLine(s);
 
             /*Bài 2: Khai báo 2 biến firstName và lastName và ghép lại thành 1 tên đầy đủ*/
-            //string lastName = "Nguyen";
-            //string firstName = "A";
-            //Console.WriteLine($"Ho ten day du {lastName} {firstName}");
+            string lastName = "Nguyen";
+            string firstName = "A";
+            Console.WriteLine($"Ho ten day du {lastName} {firstName}");
 
             /*Bài 3: Nhập một chuỗi từ bàn phím và in ra độ dài của chuỗi*/
-            //Console.WriteLine("Nhap vao mot chuoi tuy thich");
-            //string s1 = Console.ReadLine();
-            //Console.WriteLine("Do dai cua chuoi: " + s1.Length);
+            Console.WriteLine("Nhap vao mot chuoi tuy thich");
+            string s1 = Console.ReadLine();
+            Console.WriteLine("Do dai cua chuoi: " + s1.Length);
 
             /*Bài 4: Nhập một chuỗi và chuyển toàn bộ sang chữ hoa*/
-            //Console.WriteLine("Nhap vao mot chuoi tuy thich");
-            //string s2 = Console.ReadLine();
-            //Console.WriteLine("Chuoi da duoc chuyen thanh viet hoa " + s2.ToUpper());
+            Console.WriteLine("Nhap vao mot chuoi tuy thich");
+            string s2 = Console.ReadLine();
+            Console.WriteLine("Chuoi da duoc chuyen thanh viet hoa " + s2.ToUpper());
 
             /*Bài 5: Kiểm tra chuỗi có chứa chữ C# hay không*/
-            //string s3 = "Xin chào tôi học lập trình C#, hello world";
-            //if (s3.Contains("C#"))
-            //{
-            //    Console.WriteLine("Chuỗi có chứa C#");
-            //}
-            //else
-            //{
-            //    Console.WriteLine("Chuỗi không chứa C#");
-            //}
+            string s3 = "Xin chào tôi học lập trình C#, hello world";
+            if (s3.Contains("C#"))
+            {
+                Console.WriteLine("Chuỗi có chứa C#");
+            }
+            else
+            {
+                Console.WriteLine("Chuỗi không chứa C#");
+            }
 
             /*Bài 6: Khai báo object có giá trị là 100 và in ra màn hình kiểu dữ liệu của biến*/
-            //object value = 10;
-            //Console.WriteLine(value.GetType()); // Kết quả in ra là System.Int32 để biết nó thuộc kiểu dữ liệu nào
+            object value = 10;
+            Console.WriteLine(value.GetType()); // Kết quả in ra là System.Int32 để biết nó thuộc kiểu dữ liệu nào
 
             /*Bài 7: Lưu lần lượt vào một biến object: int, string, bool Quan sát điều gì xảy ra.*/
-            //object value1 = 100;
-            //Console.WriteLine(value1);
-            //value1 = "Xin chào các bạn";
-            //Console.WriteLine(value1);
-            //value1 = true;
-            //Console.WriteLine(value1);
+            object value1 = 100;
+            Console.WriteLine(value1);
+            value1 = "Xin chào các bạn";
+            Console.WriteLine(value1);
+            value1 = true;
+            Console.WriteLine(value1);
             // => Nhận xét một biến object có thể gán được nhiều kiểu dữ liệu
 
             /*Bài 8: Tạo mảng string gồm 5 tên và in ra các phẩn tử trong mảng*/
-            //string [] array = { "Cam", "Xoài", "Mít", "Táo", "Ổi" };
-            //for(int i = 0; i< array.Length; i++)
-            //{
-            //    Console.WriteLine(array[i]);
-            //}
+            string[] array = { "Cam", "Xoài", "Mít", "Táo", "Ổi" };
+            for (int i = 0; i < array.Length; i++)
+            {
+                Console.WriteLine(array[i]);
+            }
 
             /*Bài 9: Nhập một tên kiểm tra tên đó có tồn tại trong mảng không*/
-            // Console.WriteLine("Hay nhap vao mot ten trai cay");
-            // string sf = Console.ReadLine();
-            // string[] food = { "Táo", "Xoài", "Mít", "Cam", "Ổi" };
-            //for(int i = 0; i < food.Length; i++)
-            // {
-            //     if (food[i] == sf)
-            //     {
-            //         break;
+            Console.WriteLine("Hay nhap vao mot ten trai cay");
+            string sf = Console.ReadLine();
+            string[] food = { "Táo", "Xoài", "Mít", "Cam", "Ổi" };
+            for (int i = 0; i < food.Length; i++)
+            {
+                if (food[i] == sf)
+                {
+                    break;
 
-            //     }
-            //     else
-            //     {
-            //         continue;
+                }
+                else
+                {
+                    continue;
 
-            //     }
-            // }
+                }
+            }
 
             /*Bài 10: Tạo class student và in ra đối tượng đó */
 
-            //Student s1 = new Student();
-            //s1.Name = "Huy";
-            //s1.Age = 25;
-            //Console.WriteLine($"Ten doi tuong {s1.Name} co tuoi la {s1.Age}");
+            Student s1 = new Student();
+            s1.Name = "Huy";
+            s1.Age = 25;
+            Console.WriteLine($"Ten doi tuong {s1.Name} co tuoi la {s1.Age}");
 
             /*Bài 11: Tạo 2 đối tượng student và dùng == để so sánh đánh giá kết quả*/
-            //Student s2 = new Student();
-            //s2.Name = "Huy";
-            //s2.Age = 25;
-            //Student s3 = new Student();
-            //s3.Name = "Huy";
-            //s3.Age = 25;
-            //Console.WriteLine(s2 == s3);
+            Student s2 = new Student();
+            s2.Name = "Huy";
+            s2.Age = 25;
+            Student s3 = new Student();
+            s3.Name = "Huy";
+            s3.Age = 25;
+            Console.WriteLine(s2 == s3);
             // => Kết quả false vì s1 và s2 là hai đối tượng khác nhau được tạo bởi hai lần gọi new.
             // Mỗi đối tượng có một vùng nhớ riêng trên Heap. Toán tử == của class (mặc định) so sánh địa chỉ
             // tham chiếu, không so sánh dữ liệu bên trong đối tượng. Vì hai tham chiếu trỏ đến hai đối tượng
             // khác nhau nên kết quả là false
 
             /*Bài 12:  Tạo đối tượng đầu tiên sau đó tạo đối tượng thứ 2 nhưng được gán từ đối tượng 1, rồi gán giá trị lại xem kết quả*/
-            //Student s3 = new Student();
-            //s3.Name = "Thanh";
-            //s3.Age = 25;
-            //Student s4 = s3;
-            //Console.WriteLine(s4.Name);
+            Student s3 = new Student();
+            s3.Name = "Thanh";
+            s3.Age = 25;
+            Student s4 = s3;
+            Console.WriteLine(s4.Name);
             // => gán là cùng s3 và s4 cùng tham chiếu (trỏ) đến cùng một đối tượng trên bộ nhớ heap nên đổi cái này cái kia cũng đổi theo
 
             /*Bài 13: Tạo class Book và làm các yêu cầu
