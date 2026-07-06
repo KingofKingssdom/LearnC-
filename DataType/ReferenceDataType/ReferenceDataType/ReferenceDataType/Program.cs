@@ -82,32 +82,31 @@
             }
 
             /*Bài 10: Tạo class student và in ra đối tượng đó */
-
-            Student s1 = new Student();
-            s1.Name = "Huy";
-            s1.Age = 25;
-            Console.WriteLine($"Ten doi tuong {s1.Name} co tuoi la {s1.Age}");
+            Student student1 = new Student();
+            student1.Name = "Huy";
+            student1.Age = 25;
+            Console.WriteLine($"Ten doi tuong {student1.Name} co tuoi la {student1.Age}");
 
             /*Bài 11: Tạo 2 đối tượng student và dùng == để so sánh đánh giá kết quả*/
-            Student s2 = new Student();
-            s2.Name = "Huy";
-            s2.Age = 25;
-            Student s3 = new Student();
-            s3.Name = "Huy";
-            s3.Age = 25;
-            Console.WriteLine(s2 == s3);
-            // => Kết quả false vì s1 và s2 là hai đối tượng khác nhau được tạo bởi hai lần gọi new.
+            Student student2 = new Student();
+            student2.Name = "Huy";
+            student2.Age = 25;
+            Student student3 = new Student();
+            student3.Name = "Huy";
+            student3.Age = 25;
+            Console.WriteLine(student2 == student3);
+            // => Kết quả false vì s2 và s3 là hai đối tượng khác nhau được tạo bởi hai lần gọi new.
             // Mỗi đối tượng có một vùng nhớ riêng trên Heap. Toán tử == của class (mặc định) so sánh địa chỉ
             // tham chiếu, không so sánh dữ liệu bên trong đối tượng. Vì hai tham chiếu trỏ đến hai đối tượng
             // khác nhau nên kết quả là false
 
             /*Bài 12:  Tạo đối tượng đầu tiên sau đó tạo đối tượng thứ 2 nhưng được gán từ đối tượng 1, rồi gán giá trị lại xem kết quả*/
-            Student s3 = new Student();
-            s3.Name = "Thanh";
-            s3.Age = 25;
-            Student s4 = s3;
-            Console.WriteLine(s4.Name);
-            // => gán là cùng s3 và s4 cùng tham chiếu (trỏ) đến cùng một đối tượng trên bộ nhớ heap nên đổi cái này cái kia cũng đổi theo
+            Student student4 = new Student();
+            student4.Name = "Thanh";
+            student4.Age = 25;
+            Student student5 = student4;
+            Console.WriteLine(student5.Name);
+            // => gán là cùng s5 và s4 cùng tham chiếu (trỏ) đến cùng một đối tượng trên bộ nhớ heap nên đổi cái này cái kia cũng đổi theo
 
             /*Bài 13: Tạo class Book và làm các yêu cầu
              * 1. Tạo đối tượng book1.
