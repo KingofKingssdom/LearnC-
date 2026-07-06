@@ -1,0 +1,14 @@
+E:\Learn\C#\Variable\IntDataType\Int\Int\bin\Debug\net10.0\Int.exe
+E:\Learn\C#\Variable\IntDataType\Int\Int\bin\Debug\net10.0\Int.deps.json
+E:\Learn\C#\Variable\IntDataType\Int\Int\bin\Debug\net10.0\Int.runtimeconfig.json
+E:\Learn\C#\Variable\IntDataType\Int\Int\bin\Debug\net10.0\Int.dll
+E:\Learn\C#\Variable\IntDataType\Int\Int\bin\Debug\net10.0\Int.pdb
+E:\Learn\C#\Variable\IntDataType\Int\Int\obj\Debug\net10.0\Int.GeneratedMSBuildEditorConfig.editorconfig
+E:\Learn\C#\Variable\IntDataType\Int\Int\obj\Debug\net10.0\Int.AssemblyInfoInputs.cache
+E:\Learn\C#\Variable\IntDataType\Int\Int\obj\Debug\net10.0\Int.AssemblyInfo.cs
+E:\Learn\C#\Variable\IntDataType\Int\Int\obj\Debug\net10.0\Int.csproj.CoreCompileInputs.cache
+E:\Learn\C#\Variable\IntDataType\Int\Int\obj\Debug\net10.0\Int.dll
+E:\Learn\C#\Variable\IntDataType\Int\Int\obj\Debug\net10.0\refint\Int.dll
+E:\Learn\C#\Variable\IntDataType\Int\Int\obj\Debug\net10.0\Int.pdb
+E:\Learn\C#\Variable\IntDataType\Int\Int\obj\Debug\net10.0\Int.genruntimeconfig.cache
+E:\Learn\C#\Variable\IntDataType\Int\Int\obj\Debug\net10.0\ref\Int.dll
