@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "E:\\Learn\\C#\\Variable\\IntDataType\\Int\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B423D3D9-2B1C-4A82-8D58-EC16CDE12ADC}|Int\\Int.csproj|e:\\learn\\c#\\variable\\intdatatype\\int\\int\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B423D3D9-2B1C-4A82-8D58-EC16CDE12ADC}|Int\\Int.csproj|solutionrelative:int\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D38C3C9A-EE61-7F8B-489F-1D5A14F7B051}|Int\\Int.csproj|e:\\learn\\c#\\variable\\intdatatype\\int\\int\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D38C3C9A-EE61-7F8B-489F-1D5A14F7B051}|Int\\Int.csproj|solutionrelative:int\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -24,7 +24,7 @@
               "RelativeDocumentMoniker": "Int\\Program.cs",
               "ToolTip": "E:\\Learn\\C#\\Variable\\IntDataType\\Int\\Int\\Program.cs",
               "RelativeToolTip": "Int\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAALAAAAAAAAAA==",
+              "ViewState": "AgIAADIAAAAAAAAAAAAQwAwAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-06T02:59:28.949Z",
               "EditorCaption": ""
