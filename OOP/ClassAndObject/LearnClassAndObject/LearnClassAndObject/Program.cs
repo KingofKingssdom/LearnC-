@@ -168,6 +168,8 @@ namespace LearnClassAndObject
             Console.WriteLine(s11.Name);
             Console.WriteLine(s12.Name);
             // => Kết quả vấn An Bình vì cần tìm hiểu kĩ lại
+            Console.WriteLine();
+            Convert.ToInt32(Console.ReadLine());
         }
     }
 }
