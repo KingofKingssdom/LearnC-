@@ -2,13 +2,13 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace ReferenceDataType
+namespace LearnClassAndObject
 {
     public class Student
     {
         public string Name { set; get; }
         public int Age { set; get; }
-        public Student() { }
-       
+
+        
     }
 }
